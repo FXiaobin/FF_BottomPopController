@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0401D78721928BFE00EE6EA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D78621928BFE00EE6EA7 /* AppDelegate.m */; };
+		0401D78A21928BFE00EE6EA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D78921928BFE00EE6EA7 /* ViewController.m */; };
+		0401D78D21928BFE00EE6EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0401D78B21928BFE00EE6EA7 /* Main.storyboard */; };
+		0401D78F21928BFF00EE6EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0401D78E21928BFF00EE6EA7 /* Assets.xcassets */; };
+		0401D79221928BFF00EE6EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0401D79021928BFF00EE6EA7 /* LaunchScreen.storyboard */; };
+		0401D79521928BFF00EE6EA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D79421928BFF00EE6EA7 /* main.m */; };
+		0401D7BC2192978D00EE6EA7 /* PopContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D7BB2192978D00EE6EA7 /* PopContentView.m */; };
+		0401D7C2219299D000EE6EA7 /* PopCoverBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D7C1219299D000EE6EA7 /* PopCoverBaseViewController.m */; };
+		0401D7C521929A5200EE6EA7 /* PopContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0401D7C421929A5200EE6EA7 /* PopContentViewController.m */; };
+		0508F18A6FE0348472839409 /* libPods-BottomPopController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FEBF510DA7F6595B4EE459 /* libPods-BottomPopController.a */; };
+		44B8703BA0AABD4C9CBE5B7E /* libPods-BottomPopControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12F3A0DCF3ECAD6F23B980B /* libPods-BottomPopControllerUITests.a */; };
+		72D2A64C5FC58DC8895DD41A /* libPods-BottomPopControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538B8E3B9BB2226FF1388139 /* libPods-BottomPopControllerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0401D79B21928BFF00EE6EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0401D77A21928BFE00EE6EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0401D78121928BFE00EE6EA7;
+			remoteInfo = BottomPopController;
+		};
+		0401D7A621928BFF00EE6EA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0401D77A21928BFE00EE6EA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0401D78121928BFE00EE6EA7;
+			remoteInfo = BottomPopController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0401D78221928BFE00EE6EA7 /* BottomPopController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomPopController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0401D78521928BFE00EE6EA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0401D78621928BFE00EE6EA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0401D78821928BFE00EE6EA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0401D78921928BFE00EE6EA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0401D78C21928BFE00EE6EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0401D78E21928BFF00EE6EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0401D79121928BFF00EE6EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0401D79321928BFF00EE6EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0401D79421928BFF00EE6EA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0401D79A21928BFF00EE6EA7 /* BottomPopControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomPopControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0401D7A521928BFF00EE6EA7 /* BottomPopControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottomPopControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0401D7BA2192978D00EE6EA7 /* PopContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopContentView.h; sourceTree = "<group>"; };
+		0401D7BB2192978D00EE6EA7 /* PopContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopContentView.m; sourceTree = "<group>"; };
+		0401D7C0219299D000EE6EA7 /* PopCoverBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopCoverBaseViewController.h; sourceTree = "<group>"; };
+		0401D7C1219299D000EE6EA7 /* PopCoverBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopCoverBaseViewController.m; sourceTree = "<group>"; };
+		0401D7C321929A5200EE6EA7 /* PopContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopContentViewController.h; sourceTree = "<group>"; };
+		0401D7C421929A5200EE6EA7 /* PopContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopContentViewController.m; sourceTree = "<group>"; };
+		27330DF76FC960F0C846219D /* Pods-BottomPopController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomPopController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottomPopController/Pods-BottomPopController.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF2A64B82DD0DE3A46E956C /* Pods-BottomPopControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomPopControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomPopControllerTests/Pods-BottomPopControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F0062F8B6B5401C260490CB /* Pods-BottomPopControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomPopControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottomPopControllerTests/Pods-BottomPopControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		494BBFA161F769F0ABBA6E54 /* Pods-BottomPopControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomPopControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomPopControllerUITests/Pods-BottomPopControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		538B8E3B9BB2226FF1388139 /* libPods-BottomPopControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomPopControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B8A7B1BC2DBD5CA96556CE /* Pods-BottomPopController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomPopController.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottomPopController/Pods-BottomPopController.release.xcconfig"; sourceTree = "<group>"; };
+		969143E487251A84F16B21E2 /* Pods-BottomPopControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottomPopControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottomPopControllerUITests/Pods-BottomPopControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C12F3A0DCF3ECAD6F23B980B /* libPods-BottomPopControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomPopControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FEBF510DA7F6595B4EE459 /* libPods-BottomPopController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BottomPopController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0401D77F21928BFE00EE6EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0508F18A6FE0348472839409 /* libPods-BottomPopController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D79721928BFF00EE6EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D2A64C5FC58DC8895DD41A /* libPods-BottomPopControllerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D7A221928BFF00EE6EA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B8703BA0AABD4C9CBE5B7E /* libPods-BottomPopControllerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0401D77921928BFE00EE6EA7 = {
+			isa = PBXGroup;
+			children = (
+				0401D78421928BFE00EE6EA7 /* BottomPopController */,
+				0401D78321928BFE00EE6EA7 /* Products */,
+				61284C09589D761FF73ABCCA /* Pods */,
+				3C0B91865EAB5B98CDA6AC28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0401D78321928BFE00EE6EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0401D78221928BFE00EE6EA7 /* BottomPopController.app */,
+				0401D79A21928BFF00EE6EA7 /* BottomPopControllerTests.xctest */,
+				0401D7A521928BFF00EE6EA7 /* BottomPopControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0401D78421928BFE00EE6EA7 /* BottomPopController */ = {
+			isa = PBXGroup;
+			children = (
+				0401D78521928BFE00EE6EA7 /* AppDelegate.h */,
+				0401D78621928BFE00EE6EA7 /* AppDelegate.m */,
+				0401D78821928BFE00EE6EA7 /* ViewController.h */,
+				0401D78921928BFE00EE6EA7 /* ViewController.m */,
+				0401D7C0219299D000EE6EA7 /* PopCoverBaseViewController.h */,
+				0401D7C1219299D000EE6EA7 /* PopCoverBaseViewController.m */,
+				0401D7C321929A5200EE6EA7 /* PopContentViewController.h */,
+				0401D7C421929A5200EE6EA7 /* PopContentViewController.m */,
+				0401D7BA2192978D00EE6EA7 /* PopContentView.h */,
+				0401D7BB2192978D00EE6EA7 /* PopContentView.m */,
+				0401D78B21928BFE00EE6EA7 /* Main.storyboard */,
+				0401D78E21928BFF00EE6EA7 /* Assets.xcassets */,
+				0401D79021928BFF00EE6EA7 /* LaunchScreen.storyboard */,
+				0401D79321928BFF00EE6EA7 /* Info.plist */,
+				0401D79421928BFF00EE6EA7 /* main.m */,
+			);
+			path = BottomPopController;
+			sourceTree = "<group>";
+		};
+		3C0B91865EAB5B98CDA6AC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FEBF510DA7F6595B4EE459 /* libPods-BottomPopController.a */,
+				538B8E3B9BB2226FF1388139 /* libPods-BottomPopControllerTests.a */,
+				C12F3A0DCF3ECAD6F23B980B /* libPods-BottomPopControllerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61284C09589D761FF73ABCCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27330DF76FC960F0C846219D /* Pods-BottomPopController.debug.xcconfig */,
+				67B8A7B1BC2DBD5CA96556CE /* Pods-BottomPopController.release.xcconfig */,
+				3F0062F8B6B5401C260490CB /* Pods-BottomPopControllerTests.debug.xcconfig */,
+				2DF2A64B82DD0DE3A46E956C /* Pods-BottomPopControllerTests.release.xcconfig */,
+				969143E487251A84F16B21E2 /* Pods-BottomPopControllerUITests.debug.xcconfig */,
+				494BBFA161F769F0ABBA6E54 /* Pods-BottomPopControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0401D78121928BFE00EE6EA7 /* BottomPopController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401D7AE21928BFF00EE6EA7 /* Build configuration list for PBXNativeTarget "BottomPopController" */;
+			buildPhases = (
+				917659A11D0624CA7A1E3B14 /* [CP] Check Pods Manifest.lock */,
+				0401D77E21928BFE00EE6EA7 /* Sources */,
+				0401D77F21928BFE00EE6EA7 /* Frameworks */,
+				0401D78021928BFE00EE6EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BottomPopController;
+			productName = BottomPopController;
+			productReference = 0401D78221928BFE00EE6EA7 /* BottomPopController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0401D79921928BFF00EE6EA7 /* BottomPopControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401D7B121928BFF00EE6EA7 /* Build configuration list for PBXNativeTarget "BottomPopControllerTests" */;
+			buildPhases = (
+				12A44608E53EED7412D9FEEF /* [CP] Check Pods Manifest.lock */,
+				0401D79621928BFF00EE6EA7 /* Sources */,
+				0401D79721928BFF00EE6EA7 /* Frameworks */,
+				0401D79821928BFF00EE6EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0401D79C21928BFF00EE6EA7 /* PBXTargetDependency */,
+			);
+			name = BottomPopControllerTests;
+			productName = BottomPopControllerTests;
+			productReference = 0401D79A21928BFF00EE6EA7 /* BottomPopControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0401D7A421928BFF00EE6EA7 /* BottomPopControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0401D7B421928BFF00EE6EA7 /* Build configuration list for PBXNativeTarget "BottomPopControllerUITests" */;
+			buildPhases = (
+				2697BEBA4C3E8E9FA54C356E /* [CP] Check Pods Manifest.lock */,
+				0401D7A121928BFF00EE6EA7 /* Sources */,
+				0401D7A221928BFF00EE6EA7 /* Frameworks */,
+				0401D7A321928BFF00EE6EA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0401D7A721928BFF00EE6EA7 /* PBXTargetDependency */,
+			);
+			name = BottomPopControllerUITests;
+			productName = BottomPopControllerUITests;
+			productReference = 0401D7A521928BFF00EE6EA7 /* BottomPopControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0401D77A21928BFE00EE6EA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = healifeGroup;
+				TargetAttributes = {
+					0401D78121928BFE00EE6EA7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0401D79921928BFF00EE6EA7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0401D78121928BFE00EE6EA7;
+					};
+					0401D7A421928BFF00EE6EA7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0401D78121928BFE00EE6EA7;
+					};
+				};
+			};
+			buildConfigurationList = 0401D77D21928BFE00EE6EA7 /* Build configuration list for PBXProject "BottomPopController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0401D77921928BFE00EE6EA7;
+			productRefGroup = 0401D78321928BFE00EE6EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0401D78121928BFE00EE6EA7 /* BottomPopController */,
+				0401D79921928BFF00EE6EA7 /* BottomPopControllerTests */,
+				0401D7A421928BFF00EE6EA7 /* BottomPopControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0401D78021928BFE00EE6EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401D79221928BFF00EE6EA7 /* LaunchScreen.storyboard in Resources */,
+				0401D78F21928BFF00EE6EA7 /* Assets.xcassets in Resources */,
+				0401D78D21928BFE00EE6EA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D79821928BFF00EE6EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D7A321928BFF00EE6EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A44608E53EED7412D9FEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BottomPopControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2697BEBA4C3E8E9FA54C356E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BottomPopControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		917659A11D0624CA7A1E3B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BottomPopController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0401D77E21928BFE00EE6EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401D78A21928BFE00EE6EA7 /* ViewController.m in Sources */,
+				0401D7C2219299D000EE6EA7 /* PopCoverBaseViewController.m in Sources */,
+				0401D7C521929A5200EE6EA7 /* PopContentViewController.m in Sources */,
+				0401D79521928BFF00EE6EA7 /* main.m in Sources */,
+				0401D78721928BFE00EE6EA7 /* AppDelegate.m in Sources */,
+				0401D7BC2192978D00EE6EA7 /* PopContentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D79621928BFF00EE6EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0401D7A121928BFF00EE6EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0401D79C21928BFF00EE6EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0401D78121928BFE00EE6EA7 /* BottomPopController */;
+			targetProxy = 0401D79B21928BFF00EE6EA7 /* PBXContainerItemProxy */;
+		};
+		0401D7A721928BFF00EE6EA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0401D78121928BFE00EE6EA7 /* BottomPopController */;
+			targetProxy = 0401D7A621928BFF00EE6EA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0401D78B21928BFE00EE6EA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0401D78C21928BFE00EE6EA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0401D79021928BFF00EE6EA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0401D79121928BFF00EE6EA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0401D7AC21928BFF00EE6EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0401D7AD21928BFF00EE6EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0401D7AF21928BFF00EE6EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27330DF76FC960F0C846219D /* Pods-BottomPopController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BottomPopController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.BottomPopController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0401D7B021928BFF00EE6EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B8A7B1BC2DBD5CA96556CE /* Pods-BottomPopController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BottomPopController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.BottomPopController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0401D7B221928BFF00EE6EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0062F8B6B5401C260490CB /* Pods-BottomPopControllerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BottomPopControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.BottomPopControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BottomPopController.app/BottomPopController";
+			};
+			name = Debug;
+		};
+		0401D7B321928BFF00EE6EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF2A64B82DD0DE3A46E956C /* Pods-BottomPopControllerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BottomPopControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.BottomPopControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BottomPopController.app/BottomPopController";
+			};
+			name = Release;
+		};
+		0401D7B521928BFF00EE6EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969143E487251A84F16B21E2 /* Pods-BottomPopControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BottomPopControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.BottomPopControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BottomPopController;
+			};
+			name = Debug;
+		};
+		0401D7B621928BFF00EE6EA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 494BBFA161F769F0ABBA6E54 /* Pods-BottomPopControllerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BottomPopControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = healifeGroup.BottomPopControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BottomPopController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0401D77D21928BFE00EE6EA7 /* Build configuration list for PBXProject "BottomPopController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0401D7AC21928BFF00EE6EA7 /* Debug */,
+				0401D7AD21928BFF00EE6EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0401D7AE21928BFF00EE6EA7 /* Build configuration list for PBXNativeTarget "BottomPopController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0401D7AF21928BFF00EE6EA7 /* Debug */,
+				0401D7B021928BFF00EE6EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0401D7B121928BFF00EE6EA7 /* Build configuration list for PBXNativeTarget "BottomPopControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0401D7B221928BFF00EE6EA7 /* Debug */,
+				0401D7B321928BFF00EE6EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0401D7B421928BFF00EE6EA7 /* Build configuration list for PBXNativeTarget "BottomPopControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0401D7B521928BFF00EE6EA7 /* Debug */,
+				0401D7B621928BFF00EE6EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0401D77A21928BFE00EE6EA7 /* Project object */;
+}
